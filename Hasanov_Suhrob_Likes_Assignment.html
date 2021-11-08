@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">  
+        <div id="topSection"><p class="headers">Network</p></div>
+        <div id="midSection"><p class="headers">Your Feed</p></div>
+        <div id="bottomSection">
+            <div id="bottomSectionLeftColumn">
+                <div id><img id="avatar" src="images\user-circle.png" alt="Avatar Image"></div>
+                <div id="addAvatar"><a href="https://linkedin.com"> Add on avatar</a></div>
+                <div><p  class="feedSectionUserName">James Doe</p></div>
+            </div>
+            <div id="bottomSectionRightColumn">
+                <div class="feedContainers">
+                    <div class="feedContainerTopSections">
+                        <div><p  class="feedSectionUserName">Neil M</p></div>
+                        <div class="likesSection">
+                            <div><p id="neilLikes">9 like(s)</p></div>
+                            <div><button onclick="likes('neilLikes')" class="likesButtons" id="neilButton">Like</button></div>
+                        </div>
+                    </div>
+                    <div class="feedContent"><p class="feedText">I just set up this new discord bot, let me know what you all think. <a href="https://www.discord.com">link</a></p>
+                    </div>
+                </div>
+                <div class="feedContainers">
+                    <div class="feedContainerTopSections">
+                        <div><p  class="feedSectionUserName">Nichole K</p></div>
+                        <div class="likesSection">
+                            <div><p id="nicholeLikes">12 like(s)</p></div>
+                            <div><button onclick="likes('nicholeLikes')" class="likesButtons" id="nicholeButton">Like</button></div>
+                        </div>
+                    </div>
+                    <div class="feedContent"><p>Just finished my <a href="https://www.gocomics.com/dilbert-classics/2021/11/07">next comic</a>, check it out.</p></div>
+                </div>
+                <div class="feedContainers">
+                    <div class="feedContainerTopSections">
+                        <div><p  class="feedSectionUserName">Jim R</p></div>
+                        <div class="likesSection">
+                            <div><p id="jimLikes">9 like(s)</p></div>
+                            <div><button onclick="likes('jimLikes')" class="likesButtons" id="jimButton">Like</button></div>
+                        </div>
+                    </div>
+                    <div class="feedContent"><p>I can't stop listening to the new <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">new album</a>. Who else is liking it?</p></div>
+                </div>
+                
+                 
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
