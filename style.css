@@ -12,7 +12,6 @@ body {
     flex-flow: column;
     justify-content: space-between;
     width: 550px;
-    /* height: 500px; */
 }
 
 #mainContainer, #bottomSectionLeftColumn, #topSection, #midSection, #bottomSection, .feedContainers, #bottomSectionRightColumn, .feedContainerTopSections, .likesSection{
@@ -68,7 +67,6 @@ body {
     padding: 15px;
     flex-flow: column;
     justify-content: space-around;
-    
 }
 
 .likesSection{
